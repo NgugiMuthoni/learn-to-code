@@ -25,10 +25,13 @@ body{
 .button{
 	height: 25px;
 	background: #e8491d;
-	border: none;
-	padding-left: 20px;
-	padding-right: 20px;
+	border-radius: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #ffffff;
+	border-color: lightslategray;
+	width: auto;
+	height: 40px;
 	
 }
 /* 
@@ -202,6 +205,7 @@ footer{
 	margin-top: 20px;
 	color: #ffffff;
 	background-color: #e8491d;
+	bottom: 0;
 	
 	
 }
@@ -284,6 +288,22 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   font-size: 17px;
 }
 
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+.footer .push{
+	height: 50px;
+}
+
+
+
 /* media querie */
 @media(max-width: 768px){
 header #branding, 
@@ -293,7 +313,7 @@ header nav li,
 #newsletter form,
 #boxes .box,
 article#main-col,
-aside#sidebar{
+aside#sidebar .footer, .push, .wrapper{
 	float: none;
 	text-align: center;
 	width: 100%;
