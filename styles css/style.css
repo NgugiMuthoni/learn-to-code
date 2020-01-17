@@ -17,7 +17,7 @@ body{
 	display: inline-flexbox;
 	width: 80%;
 	margin: auto;
-	overflow: hidden;
+	overflow: initial;
 	transition: 3s;	
 	
 }
@@ -79,7 +79,7 @@ ul{
 
 .dark{
 	padding: 15px;
-	background: #35424a;
+	background: lightslategray;
 	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -302,7 +302,9 @@ html, body{
 	height: 50px;
 }
 
-
+.change{
+	background-color: #35424a;
+}
 
 /* media querie */
 @media(max-width: 768px){
@@ -354,3 +356,30 @@ header{
     flex-grow: 1;
 } */
 
+/* coming soon */
+/* .coming{
+	background-image: url('../img/lucas-benjamin-wQLAGv4_OYs-unsplash.jpg');
+	height: 50%;
+	width: auto;
+}	 */
+
+/* #place{
+	text-align: center;
+	
+	align-content: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+	font-style: italic;
+}
+
+iframe{
+	align-content: center;
+	font-size: 60px;
+	top: 50px;
+	text-align: justify;
+	color: ;
+} */
+
+/* iframe:hover{
+	direction: rtl;
+} */
