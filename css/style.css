@@ -1,0 +1,158 @@
+body{
+	/* background-color: lightgray; */
+	border-radius: 10px;
+	/* justify-content: space-evenly; */
+	align-content: space-between;
+	background-image: url('../img/justin-leibow-GkKJ56oZ_30-unsplash.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+nav {
+
+	margin: 0 auto;
+	padding: 0;
+	margin-right: 0%;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	font-size: larger;
+	opacity: 0.4;
+	position: sticky;
+	
+	
+	
+ }
+ 
+ nav>ul>li>a {
+ padding: 18px;
+ margin-right: 0;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ color:black;
+ font-weight: bolder;
+ font-style: italic;
+ font-family: 'Times New Roman', Times, serif;
+ }
+ nav>ul>li>a:hover {
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+ background: lightsteelblue;
+ color: rgba(0, 35, 122, 0.7);
+ border-radius: 10px;
+ }
+ ul>li{
+   /*text-align: right;*/
+   display: inline-block;
+ }
+ nav>ul{
+   text-align: center;
+ }
+
+ .testa{
+	 background-image: url('../img/aziz-acharki-fEL18vax1HE-unsplash.jpg');
+	 background-repeat: no-repeat;
+	 border-radius: 10px;
+	 height: 100%;
+	 background-size: cover;
+	 
+	
+	
+ }
+
+ #content{
+	font-size: 25px;
+	font-style: oblique;
+	color: whitesmoke;
+	text-align: center;
+	opacity: 0.9;
+
+ }
+
+ 
+ 
+ footer{
+	 background-color: lightseagreen;
+	 border-radius: 10px;
+	 text-align: center;
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+	 opacity: 0.9;
+
+
+ }
+
+ .about{
+	 border-radius: 10px;
+	 
+	 height: 100%;
+	 padding: 0;
+	 opacity: 0.9;
+ }
+
+ .contact{
+	border-radius: 10px;
+	
+	height: 100%;
+	padding: 0;
+	opacity: 0.9;
+}
+
+ /* .contact{
+	 border-radius: 10px;
+	 background-color: lightslategrey;
+	 height: 80%;
+	 padding: 0;
+ } */
+
+#float{
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
+	height: 85%;
+	width: 50%;
+	float: left;
+	background-color: thistle;
+	border-radius: 10px;
+	opacity: 0.9;
+	line-height: 2em;
+  }
+  #float2{
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
+	height: 85%;
+	width: 50%;
+	float: right;
+	background-color: turquoise;
+	border-radius: 10px;
+	opacity: 0.9;
+	line-height: 2em;
+  }
+#hII{
+	background-color: lightseagreen;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 0.9;
+
+}
+
+img{
+	height: 55%;
+	width: 100%;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+#box{
+	border-radius: 10px;
+	background-color: lightslategray;
+	height: auto;
+	opacity: 0.9;
+	text-align: center;
+	color: whitesmoke;
+	line-height: 2em;
+	/* box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08),6px 6px 12px rgba(255,255,255,1); */
+}
+ 
+
+ 
+ 
+ 
