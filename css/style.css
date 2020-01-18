@@ -73,7 +73,7 @@ nav {
  
  
  footer{
-	 background-color: lightsteelblue;
+	 background-color: whitesmoke;
 	 border-radius: 10px;
 	 text-align: center;
 	 padding-top: 1px;
@@ -108,27 +108,31 @@ nav {
 
 #float{
 	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
-	height: 60%;
+	height: 90%;
 	width: 50%;
 	float: left;
 	background-color: lightslategray;
 	border-radius: 10px;
 	opacity: 0.9;
+	color: whitesmoke;
 	line-height: 2em;
+	text-align: center;
   }
   #float2{
 	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
-	height: 60%;
+	height: 90%;
 	width: 49%;
 	float: right;
 	background-color: lightslategray;
 	border-radius: 10px;
 	opacity: 0.9;
-	line-height: 2em;
+	color: whitesmoke;
 	margin-left: 5px;
+	line-height: 2em;
+	
   }
 #hII{
-	background-color: lightsteelblue;
+	background-color: whitesmoke;
 	border-radius: 10px;
 	text-align: center;
 	padding-top: 10px;
@@ -196,7 +200,7 @@ img{
 }
 
 h4{
-	color: black;
+	color:black;
 }
 
 
