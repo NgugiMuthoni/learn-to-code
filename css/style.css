@@ -54,7 +54,7 @@ nav {
 	 background-image: url('../img/aziz-acharki-fEL18vax1HE-unsplash.jpg');
 	 background-repeat: no-repeat;
 	 border-radius: 10px;
-	 height: 100%;
+	 height: 70%;
 	 background-size: cover;
 	 
 	
@@ -200,10 +200,36 @@ img{
 }
 
 h4{
-	color:black;
+	color: greenyellow;
 }
 
+#sp{
+	color: black;
+	text-decoration: wavy;
+	font-size: large;
+}
 
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: lightslategrey; 
+	opacity: 0.5;
+	
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: lightsteelblue;
+	opacity: 0.5;
+	border-radius: 20px; 
+	
+  }
+  
+  
 
 
 
