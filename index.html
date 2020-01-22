@@ -6,11 +6,36 @@
 	<title>Save Mother-Earth</title>
 	<link rel="stylesheet" href="./css/style.css">
 	<!-- <script src="navscript.js"></script> -->
+	<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
 </head>
 <body>
+	<!-- <script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		if (prevScrollpos > currentScrollPos) {
+		document.getElementById("navbar").style.top = "0";
+		} else {
+			document.getElementById("navbar").style.top = "auto";
+		}
+		prevScrollpos = currentScrollPos;
+}
+	</script> -->
 	<header class="testa">
-
-	<div >
+		
 		<nav id="navbar">
 			<ul>
 				
@@ -18,24 +43,67 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact US</a></li>
 			</ul>
-		</nav
-		>
-		<diV id="content">
-			<h1>Save Mother-Earth.</h1>
-			<h4>
-				Nature is man’s teacher. She unfolds her treasures to his search, 
-				unseals his eye, illumines his mind, and purifies his heart; an influence breathes from all the sights and sounds of her existence.<br>
-				<strong><em>~ Alfred Billings Street</em></strong><br><br>
-				It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, 
-				that quality of air that emanation from old trees, that so wonderfully changes and renews a weary spirit<br>
-				<strong><em>~ Robert Louis Stevenson</em></strong><br>
+		</nav>
+		<div id="demo" class="carousel slide" data-ride="carousel">
 
-			</h4>
-		</diV>
-
-		
-	</div>
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+       
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/back2.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <span id="bottomtext1">
+        	<h3>Save Mother-Earth</h3>
+        <p>Nature will bear the closest inspection. She invites us to lay our eye level 
+        	<br>with her smallest leaf, and take an insect view of its plain.
+		</p>
+        </span>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="./img/back.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <span id="bottomtext2">
+        	<h3>Save Mother-Earth</h3>
+        <p>The clearest way into the Universe is through a forest wilderness</p>
+        </span>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="./img/mac.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <span id="bottomtext">
+        	<h3>Save Mother-Earth</h3>
+        <p>I like it when a flower or a little tuft of grass grows through a crack in the concrete. It's so fuckin' heroic.</p>
+        </span>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 	</header>
+	<br>
+	<br>
+	<br>
+	<br>
 	<div id="home">
 	<div id="box">
 		<h2 id="deco">Global warming</h2>
@@ -64,17 +132,16 @@
 	</div>
 	<div id="box-1">
 		<p>
-			Trees are a poem the earth writes across the sky. Humanity cuts them down for paper so we may record our emptiness.<br> <strong>~ Kahlil Gibran </strong>
+			Trees are a poem the earth writes across the sky. Humanity cuts them down for paper so we may record our emptiness.<strong><span id="strongcolor">~ Kahlil Gibran </span></strong>
 		</p>
 	
 	</div>
 	<div id="box-2">
 		<p>
-			Man is the most insane species. He worships an invisible God and slaughters a visible Nature without realizing that this Nature he slaughters is this invisible God he worships. <strong>~ Hubert Reeves</strong>
+			Man is the most insane species. He worships an invisible God and slaughters a visible Nature without realizing that this Nature he slaughters is this invisible God he worships.<strong><span id="strongcolor">~ Hubert Reeves</span></strong>
 		</p>
 	
 	</div>
-	<br>
 	<br>
 	<br>
 	<br>
@@ -106,6 +173,7 @@
 		<div id="imit">
 			<img src="./img/about-us.jpg" alt="about">
 		</div>
+		<br>
 		<div id="box">
 			<p>
 				Welcome to Nature Research. We’re here to serve the research community by publishing the most significant discoveries — findings that advance knowledge and address global societal challenges. Our journals publish not only primary research but also reviews, critical comment and analysis
@@ -122,8 +190,6 @@
 	</div>
 	<br>
 	<br>
-	<br>
-
 	<div class="contact" id="contact">
 		<h2 id="hII">Contact us</h2>
 		<div id="float">
@@ -135,25 +201,27 @@
 			</p>
 		</div>
 		<div id="float2">
-			<!-- <form>
-			<input type="text" class="input" placeholder="Name" width="90%"><br>
-      		<input type="text" class="input" placeholder="Email Address" width="90%"><br>
-      		<input type="text" class="input" placeholder="Phone" width="90%"><br>
-			<input type="text" class="input" placeholder="Subject" width="90%"><br>
-			<textarea placeholder="Message"></textarea>
-			</div> -->
 			
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo blanditiis dolor voluptatem. Nam soluta nihil magnam consequatur dignissimos, facere esse odio accusamus eum deleniti, atque officia, ab sint voluptatum!<br>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quam accusamus reiciendis. Suscipit maxime molestiae fugit voluptatem culpa illo reprehenderit fuga? Nemo placeat nesciunt nostrum quo nisi animi quasi magni.<br>
-			</p>
-			</form>
+		   <?php
+		   <form action="/action_page.php">
+			<!-- <label for="fname">First Name</label> -->
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+		
+			<!-- <label for="lname">Last Name</label> -->
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		
+			<!-- <label for="lname">Email</label> -->
+			<input type="email" id="lname" name="email" placeholder="Your email..">
+			
+		  
+			<input type="submit" value="Submit">
+		  </form>
+		   ?>
 		</div>
 	</div>
 	<br>
 	<br>
 	<br>
-
 	<div>
 		<footer>
 			<p> Save Mother-Earth copyright  &copy 2020</p>

@@ -6,6 +6,7 @@ body{
 	background-image: url('../img/justin-leibow-GkKJ56oZ_30-unsplash.jpg');
 	background-attachment: fixed;
 	background-size: cover;
+	height: 100%;
 }
 
 nav {
@@ -16,8 +17,7 @@ nav {
 	background-color: whitesmoke;
 	border-radius: 10px;
 	font-size: larger;
-	opacity: 0.4;
-	position: sticky;
+	opacity: 0.7;
 	
 	
 	
@@ -51,15 +51,34 @@ nav {
  }
 
  .testa{
-	 background-image: url('../img/aziz-acharki-fEL18vax1HE-unsplash.jpg');
+	 /*background-image: url('../img/aziz-acharki-fEL18vax1HE-unsplash.jpg');*/
 	 background-repeat: no-repeat;
 	 border-radius: 10px;
 	 height: 70%;
-	 background-size: cover;
-	 
-	
-	
+	 background-size: cover;	
  }
+
+ #bottomtext{
+ 	color: lightseagreen;
+ 	font-style: oblique;
+ 	font-size: x-large;
+ }
+ #bottomtext1{
+ 	color: aqua;
+ 	font-style: oblique;
+ 	font-size: x-large;
+ }
+#bottomtext2{
+ 	color: lime;
+ 	font-style: oblique;
+ 	font-size: x-large;
+ }
+
+
+ /* header{
+	 justify-content: space-around;
+	 display: inline-block;
+ } */
 
  #content{
 	font-size: 25px;
@@ -77,10 +96,12 @@ nav {
 	 border-radius: 10px;
 	 text-align: center;
 	 padding-top: 1px;
-	 padding-bottom: 1px;
+	 padding-bottom: 2px;
 	 opacity: 0.9;
+ }
 
-
+ footer>p{
+ 	margin-top: 10px;
  }
 
  .about{
@@ -108,7 +129,8 @@ nav {
 
 #float{
 	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
-	height: 90%;
+	/* min-height: 100px; */
+	height: 93%;
 	width: 50%;
 	float: left;
 	background-color: lightslategray;
@@ -120,15 +142,16 @@ nav {
   }
   #float2{
 	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
-	height: 90%;
+	height: auto;
 	width: 49%;
-	float: right;
+	float: left;
 	background-color: lightslategray;
 	border-radius: 10px;
 	opacity: 0.9;
 	color: whitesmoke;
 	margin-left: 5px;
 	line-height: 2em;
+
 	
   }
 #hII{
@@ -192,7 +215,7 @@ img{
 	color: whitesmoke;
 	line-height: 2em;
 	float: right;
-	width: 49%;
+	width: 49.5%;
 	margin-left: 5px;
 	margin-bottom: 5px;
 	height: auto;
@@ -228,6 +251,78 @@ h4{
 	border-radius: 20px; 
 	
   }
+
+  input[type=text], select {
+	width: 90%;
+	padding: 12px;
+	margin: 4px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-left: 5% ;
+	height: 51px;
+  }
+
+  input[type=email], select {
+	width: 90%;
+	padding: 12px;
+	margin: 4px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-left: 5% ;
+  }
+  
+  input[type=submit] {
+	width: 90%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px;
+	margin: 4px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	align-content: center;
+	margin-left: 10px;
+	margin-left: 5% ;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+	margin-left: 5% ;
+	
+  }
+
+  #strongcolor{
+	  color: lightseagreen;
+  }
+
+/* 
+  @media only screen and (max-width: 600px){
+		body{
+			width: auto;
+		}
+		footer{
+			position: absolute;
+		}
+		.testa{
+			height: auto;
+		}
+		#box-1{
+			width: 98%;
+			display: inline;
+		}
+		#box-2{
+			width: 98%;
+			display: inline;
+			margin-left: 0px;
+		}
+		#box{
+			justify-content: space-between;
+		}
+  } */
   
   
 
